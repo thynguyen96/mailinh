@@ -1,0 +1,417 @@
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    color: inherit
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+#tai-app-dang-ky {
+    scroll-behavior: smooth;
+  }
+.apply-for {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: #fff;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+.navbar-nav {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7, auto);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8rem;
+}
+.dang-ky-button {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    font-weight: bold;
+    background-color: #00a651;;
+}
+/* Sticky */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+/** Back to top **/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 25px; /* Rounded corners */
+      height: 50px;
+    width: 50px;
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+.icon-top{
+    font-size: 30px;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: 9px;
+    right: 14px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+.dang-ky-button:hover {
+    background-color: #fff;
+    color:#00a651;
+    border: solid 2px #00a651;
+}
+.ma-gioi-thieu-button{
+    cursor: pointer;
+    position: relative;
+}
+.ma-gioi-thieu-content {
+    position: absolute;
+    color: #000;
+    font-weight: 500;
+    top: 23px;
+    left: 0;
+    padding: 0 30px;
+    font-size: 1rem;
+}
+.ngon-tay-chi > img{
+    position: absolute;
+    right: -10px;
+    bottom: -40px;
+    width: 20%;
+}
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner .banner-right {
+    position: relative;
+}
+
+.banner-right-content {
+    position: absolute;
+    top: 0;
+    left: 0;;
+}
+/* intro-promotion */
+.intro-promotion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro-promotion .block-left {
+    background-color: #00a651;
+    display: grid;
+    justify-items: self-end;
+}
+.intro-promotion-content {
+    width: 85%;
+    display: grid;
+    color: #fff;
+    /* padding: 0 20px; */
+    align-items: center;
+    padding: 50px 50px 50px 20px;
+}
+
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ddd;
+}
+.about-us-content {
+    width: 85%;
+    display: grid;
+    padding: 0 20px;
+    padding-right: 40px;
+    align-items: center;
+}
+.about-us-content img{
+    width: 30% !important;
+}
+
+.about-us .block-left{
+    display: grid;
+    align-items: center;
+    justify-items: self-end;
+}
+
+.choose-us-row-block {    
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+}
+
+.choose-us {
+    background-color: #019245;
+    color: #fff;
+}
+
+.choose-us-row-block span{    
+    font-size: 3rem;
+    font-weight: bold;
+    color: #017638;
+}
+
+footer {
+    background-color: #019245;
+    color: #fff;
+}
+.navbar-brand {
+    display: none;
+}
+
+.registry-promotion .title {
+    text-transform: uppercase;
+    color: #00a651;
+}
+.registry-promotion .hr {
+    display: grid;
+    justify-content: center;
+}
+.registry-promotion .hr span{
+    width: 100px;
+    height: 2px;
+    background-color: #00a651;
+    content: "";
+}
+
+.intro-promotion-content .hr {
+    display: grid;
+}
+.intro-promotion-content h2 span {
+    font-size: 2rem;;
+}
+
+.intro-promotion-content .hr span{
+    width: 60%;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+}
+.guide-promotion .title {
+    color: #00a651;
+}
+
+.guide-promotion  .hr {
+    display: grid;
+    justify-content: center;
+}
+.guide-promotion  .hr span{
+    width: 100px;
+    height: 2px;
+    background-color: #00a651;
+    content: "";
+}
+.icon {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #00a651;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.about-us-content .title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #6d6e71;
+}
+
+.choose-us .hr {
+    display: grid;
+    justify-content: center;
+}
+.choose-us .hr span{
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+}
+
+footer .contact ul li{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+footer .contact ul li a{
+    
+    text-align: right;
+    
+}
+.navbar-dark .nav-item > .nav-link.active  {
+    color:white;
+}
+
+.smart-taxi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.smart-taxi .smart-taxi-left {
+    background-color: #f1f2f2;
+    display: grid;
+    align-items: center;
+    justify-items: self-end;
+}
+
+.smart-taxi .smart-taxi-left ul li{
+    background-color: #00a651;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+ .smart-taxi-left-content {
+    width: 78%;
+    margin-right: 30px;
+}
+
+.smart-taxi .smart-taxi-left h4 {
+    color: #00a651;
+    text-transform: uppercase;
+    /* font-size: 2.5rem; */
+    font-weight: bold;
+
+}
+
+.smart-taxi .title {
+    text-transform: uppercase;
+    color: #00a651;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.smart-taxi .hr {
+    display: grid;
+    justify-content: center;
+}
+.smart-taxi .hr span{
+    width: 200px;
+    height: 2px;
+    background-color: #00a651;
+    content: "";
+}
+
+@media screen and (max-width: 1280px) {
+    .smart-taxi-left-content {
+       width: 90%;
+   }
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav  {
+        grid-template-columns: 1fr;
+
+    }
+    .navbar-brand {
+        display: block;
+        width: 50%;
+    }
+    .intro-promotion, .about-us {
+        grid-template-columns: 1fr;
+    }
+    .intro-promotion-content, .about-us-content {
+        width: 100%;
+    }
+    .navbar-brand-desktop {
+        display: none;
+    }
+
+    .banner {
+        grid-template-columns: 1fr;
+
+    }
+    .intro-promotion-content {
+        padding: 0 15px;
+    }
+    .ma-gioi-thieu-content {
+        position: absolute;
+        color: #000;
+        font-weight: 500;
+        top: 10px;
+        left: 0;
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    .dang-ky-button {
+        bottom: 45px;
+        padding: 2px 15px;
+        font-size: 13px;
+    }
+    .apply-for {
+        font-size: 12px;
+        bottom: 5px;
+    }
+
+    .smart-taxi {
+        grid-template-columns: 1fr;
+    
+    }
+    .smart-taxi .title {
+        /* font-size: rem; */
+    }
+
+    .smart-taxi-left-content {
+       width: 100%;
+       margin-right: 0;
+       padding: 10px 30px;
+   }
+}
+
+@media screen and (max-width: 376px) {
+    .smart-taxi .title {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .dang-ky-button {
+        padding: 2px 15px;
+        font-size: 13px;
+    }
+    .apply-for {
+        font-size: 10px;
+        bottom: 5px;
+    }
+}
